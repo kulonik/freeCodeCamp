@@ -15,7 +15,7 @@
     background-color: #E48257;
     color: #F2EDD7;
     font-size: 2rem;
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     z-index: 1;
   }
   
@@ -29,7 +29,6 @@
   }
   .navbar-list {
     width: 30%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,17 +36,19 @@
   
   .navbar-list-item {
     list-style-type: none;
+    height: 100%;
   }
   .navbar-list-item a {
     text-decoration: none;
     color: #F2EDD7;
   }
   
-  /* main {
-    position: absolute;
-    top: 80px;
+  .navbar-list-item:hover,
+  .navbar-list-item:active {
+    background-color: #3A6351;
+    padding: 25px 15px;
   }
-  */
+  
   #welcome-section {
     width: 100vw;
     height: 100vh;
@@ -66,7 +67,7 @@
   
   #welcome-section p {
     font-size: 2.5rem;
-    font-family: Verona, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #E48257;
   }
   
@@ -74,6 +75,24 @@
     width: 100vw;
     height: 100vh;
     background-color: #3A6351;
+    padding-top: 120px;
   }
   
+  .projects-title {
+    display: block;
+    margin: 0 auto;
+    border-bottom: #F2EDD7 solid 2px;
+    width: max-content;
+    padding: 0 30px 5px 20px;
+  }
+  .projects-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    color: #F2EDD7;
+  }
   
+  #contact {
+    width: 100vw;
+    height: 100vh;
+    background-color:#393232;
+  }
