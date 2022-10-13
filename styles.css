@@ -173,6 +173,10 @@
     transform: translate(0, 5px);
   }
   
+  a:-webkit-any-link {
+    cursor: grab;
+    text-decoration: none;
+  }
   
   @media only screen and (max-width: 1005px) {
     .navbar-list {
